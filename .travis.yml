@@ -13,4 +13,6 @@ script:
   - docker run -e CI=true justjudy/docker-react-app npm run test -- --corverage
 
 after_success:
+
   - echo "Test Success"
+
